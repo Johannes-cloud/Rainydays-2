@@ -1,0 +1,90 @@
+body {
+  background: white;
+  color: black;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background: white;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  height: 60px;
+  position: sticky;
+  flex-wrap: wrap;
+}
+
+.logo a {
+  background-image: url("/Images/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: centre;
+  text-indent: -9999999px;
+  height: 60px;
+  width: 110px;
+}
+
+.cart a {
+  background-image: url("/Images/Cart.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999999px;
+  height: 40px;
+  width: 40px;
+}
+
+summary {
+  text-align: left;
+  color: black;
+  background-color: black;
+  background-image: url("/Images/Birds.jpeg");
+  background-position: center;
+  text-align: center;
+  height: 500px;
+  position: relative;
+}
+
+.features {
+  background: white;
+  color: rgb(26, 26, 26);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features figure {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 150px;
+  height: 500px;
+}
+
+.features figure img {
+  border: 1px solid white;
+  box-shadow: grey 0 0 10px;
+  width: 150px;
+  height: 220px;
+}
+
+form {
+  height: 300px;
+}
+
+footer {
+  background: black;
+  color: gray;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
